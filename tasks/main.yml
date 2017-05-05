@@ -1,5 +1,6 @@
 ---
 - name:  Create /etc/security/limits.conf file
+  become: true
   template:
     dest: "/etc/security/limits.d/00-ansible.conf"
     src: limits.conf.j2
