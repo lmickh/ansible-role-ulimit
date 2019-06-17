@@ -1,0 +1,3 @@
+---
+ulimit_config: []
+ulimit_conf_file: /etc/security/limits.d/00-ansible.conf
