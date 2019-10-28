@@ -3,4 +3,4 @@
 
 {% for limit in ulimit_config -%}
   {{ limit.domain }} {{ limit.type }} {{ limit.item }} {{ limit.value }}
-{%- endfor %}
+{% endfor %}
